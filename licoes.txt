@@ -1,0 +1,44 @@
+
+
+
+Lições aprendidas:
+	Não necessita começar o servidor, pois ruby eh interpretado
+
+	RAILS
+
+		Objeto controller do Ruby a ser extendido ActionController::Base
+
+		CONFIGURAçÃO No WINDOWS:
+			Eh necessario mudar do sqlite3 pra outra versao, problema com o windows10
+
+			gem ‘sqlite3’, git: “https://github.com/larskanis/sqlite3-ruby", branch: “add-gemspec”
+
+		configuração de rotas inicio em config root.rb
+
+		TIRAR GEMAS use RAILS com ruby 2.3
+
+		YIELD = CONTENT no template
+
+		FERRAMENTA GENERATE ou SCAFFOLD, precisa TURBOLINK
+
+			criou uma estrutura de controllers com actions:
+				select all INDICE
+				selecion 1 SHOW
+				NEW
+				EDIT
+				create
+				pdate
+				 destroy
+
+			DEPOIS  scaffold, MIGRATE
+
+
+
+
+
+	MVN
+		mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+			gera um cocozão de pastas.
+
+			Archetipo generate CRIADOR

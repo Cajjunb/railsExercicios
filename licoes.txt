@@ -36,6 +36,12 @@ Lições aprendidas:
 
 			DEPOIS  scaffold, MIGRATE
 
+		O Model generico usado pelo scaffold tem os metodos:
+			.all
+			.find()
+			.
+
+
 
 
 

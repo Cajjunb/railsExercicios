@@ -4,6 +4,10 @@
 Lições aprendidas:
 	Não necessita começar o servidor, pois ruby eh interpretado
 
+	tava dando problema nisso aqui:
+		<%=  stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<%=  javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
 	RAILS
 
 		Objeto controller do Ruby a ser extendido ActionController::Base
